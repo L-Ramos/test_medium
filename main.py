@@ -7,7 +7,8 @@ Created on Tue Aug 11 17:47:09 2020
 
 import numpy as np
 
-def compute_bmi(weight,height):
+def compute_bmi_cm(weight,height):
+    height = height/100
     
     bmi = weight/(height**2)
     
@@ -15,7 +16,7 @@ def compute_bmi(weight,height):
 
 
 weight = 65
-height = 1.76
+height = 176
 print(compute_bmi(weight,height))
 
 
