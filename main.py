@@ -14,6 +14,9 @@ def compute_bmi(weight,height):
     return bmi
 
 
+weight = 65
+height = 1.76
+print(compute_bmi(weight,height))
 
 
 
